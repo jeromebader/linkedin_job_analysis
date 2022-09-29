@@ -1,6 +1,6 @@
 # Linkedin Webscrapper and Job Data EDA 
 
-![Linkedin_Logo](https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg)
+![Linkedin_Logo](https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg =300x)
 
 One of my first EDAs coded with Python, Pandas, Seaborn and Matplotlib in Jupyter Notebooks, it's about analyzing job-ads from Linkedin and made stats about the information regarding places and applicants for different jobs. The EDA uses different visualization techniques and also a georeferential heatmap with the job locations. 
 
