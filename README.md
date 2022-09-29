@@ -1,11 +1,12 @@
 # Linkedin Webscrapper and Job Data EDA 
 
-One of my first EDAs made with Python, Pandas, Seaborn and Matplotlib in Jupyter Notebooks, it's about analyzing job-ads and made stats with the information regarding places and applicants for different jobs. The EDA uses different visualization techniques and also a georeferential heatmap with the job locations.
+One of my first EDAs coded with Python, Pandas, Seaborn and Matplotlib in Jupyter Notebooks, it's about analyzing job-ads from Linkedin and made stats about the information regarding places and applicants for different jobs. The EDA uses different visualization techniques and also a georeferential heatmap with the job locations. 
 
-The data for preparing the EDA were previously extracted by a webscrapper made with Python, Selenium and Beautifulsoup.
+The core of this EDA project is the Linkedin Webscrapper which extracts the content of up to 1000 job ads for your desired job and country.
 
-For the example for extracting I used two kind of jobs for comparing each other, "data scientist" and the other "full-stack developer". You are free to use any other profesions.
-In the webscrapper there are some European countries you can select from by changing the string, you can also add new countries to the list.
+In this EDA I compared stats of 2 jobs: "data scientist" and the other "full-stack developer". 
+
+You are free to use or modify this scrapper. 
 
 ## Getting Started
 
@@ -18,8 +19,8 @@ There are 3 Jupyter Notebook files and one CSV:
 
 ## How does it work?
 
-The webscrapper linkedin_jobs_datascraper.ipynb can search and extract up to 1000 jobs for a choosen country and job from linkedin, the output is  CSV file.
-With the file csv_concater.ipynb you can concat the different files in order to use in the eda_linkedin_v_fin.ipynb file.
+The webscrapper linkedin_jobs_datascraper.ipynb can search and extract up to 1000 jobs for a chosen country and job from linkedin, the output is a CSV file. Please have in mind that Linkedin is very restrictive so the scrapper may cause blocking of your account if you use it too often.
+With the Python Script csv_concater.ipynb you can concat the different files in order to use in the eda_linkedin_v_fin.ipynb file.
 
 ### Prerequisites
 
